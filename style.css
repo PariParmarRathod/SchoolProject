@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Montserrat", sans-serif;
+}
+
+.color-theme{
+    color: #845aa7;
+}
+
+.bg-footer{
+    background-color: #845aa7;
+}
+.btn-theme{
+    background-color: #d6a3ff;
+    color: white;
+}
+
+.btn-theme:hover{
+    background-color: #845aa7;
+    color: white; 
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav .nav-item > .nav-link.active,
+.navbar-nav .nav-item > .nav-link.active:hover {
+    color: #d6a3ff !important;
+}
+
+.navbar-nav .nav-item.dropdown .nav-link {
+    color: #d6a3ff;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: #ffffff;
+}
+
+.carousel-caption h1,
+.carousel-caption p {
+    color: #ffffff;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 80vh;
+  }
+  
+.img-card{
+    padding-top: 10px;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+@media (max-width: 575px) {
+    .bottom-gap {
+      margin-bottom: 20px; 
+    }
+}
+
+.rounded-circle{
+    border-radius: 50%;
+}
+
+.icon-width{
+    width: 56px;
+    height: 40px;
+}
+
+.minus-margin-top {
+    margin-top: -150px;
+}
+
+.cardHoverBlue{
+    background-color: #a3abffa9;
+    color: #0015ff;
+}
+
+.cardHoverYellow{
+    background-color: #f5f0a4a9;
+    color: #ffa600;
+}
+
+.cardHoverGreen{
+    background-color: #caf5a4a9;
+    color: #77ff00;
+}
+
+.cardHoverPink{
+    background-color: #f4a4f5a9;
+    color: #fb00ff;
+}
+
+.cardHoverBlue:hover{
+    color: white;
+    background-color: #0015ff;
+}
+
+.cardHoverYellow:hover{
+    color: white;
+    background-color: #ffee00;
+}
+
+.cardHoverGreen:hover{
+    color: white;
+    background-color: #77ff00;
+}
+
+.cardHoverPink:hover{
+    color: white;
+    background-color: #fb00ff;
+}
+
+.cardHoverBlue:hover .card-img-top {
+    content: url('images/school-bus-white.png');
+}
+
+.cardHoverYellow:hover .card-img-top {
+    content: url('images/play-ground-white.png');
+}
+
+.cardHoverGreen:hover .card-img-top {
+    content: url('images/canteen-white.png');
+}
+
+.cardHoverPink:hover .card-img-top {
+    content: url('images/learning-white.png');
+}
+
+.form-control::placeholder{
+    color: white;
+}
+
+.footer-menu a:hover {
+    color: #a05842;
+    background-color: black;
+}
+
+.image-footer{
+    width: 150px;
+    height: 90px;
+}
